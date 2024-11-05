@@ -1,0 +1,624 @@
+/*--- Navigation Bar ---*/
+.navbar {
+  background:#241d1d;
+  border-bottom: 10px solid #d23f2b;
+  
+}
+.logo {
+  padding-left: 5px;
+  
+}
+.nav-item{
+  font-family: 'Trocchi';
+  padding-right: 5px;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+.nav-link,
+.nav-link-su,
+.navbar-brand {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+
+.nav-link:hover {
+  color: #88807f;
+  padding-bottom: 0;
+}
+
+.navbar-collapse {
+  justify-content: center;
+  padding-left: 180px;
+}
+
+/* Header */
+.header{
+  background-image: url("../images/main-bg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  margin-bottom: 2%;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(245, 245, 245, 0.363);
+}
+
+.car {
+  position: relative; 
+  left: 1%;
+  top: 30px; 
+  width: 862px; 
+  height:658px;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+.description {
+  color: #0f3138;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  padding-left:20%;
+  width: 55vw;
+  transform: translate(-30%, -55%);
+  text-align: center;
+  animation: fadeInAnimation1 ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.description h1 {
+  font-family: 'Trocchi';
+  font-size: 2.5em;
+}
+
+hr {
+  position: relative;
+  border: none;
+  height: 4px;
+  background: black;
+
+}
+/* Content */
+.featured-desc{
+  font-family: 'Trocchi';
+  font-size: 40px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.featured{
+ display: flex;
+ margin-top:1% ;
+}
+.v1 {
+  width: 20%;
+  height:430px;
+  background-color: #241d1d;
+  margin: 3%;
+  padding: 20px;
+  
+}
+
+.type{
+  color: #ffffff;
+  font-family: 'Trocchi';
+  font-size: 13px;
+}
+.model{
+  color: #ffffff;
+  font-family: 'Allerta Stencil';
+  font-size: 18px;
+ 
+}
+.price{
+  color: #d23f2b;
+  font-family: 'Fantasy';
+  font-size: 13px;
+  font-weight: bolder;
+}
+.specs{
+  color: #ffffff;
+  font-family: 'Trocchi';
+  font-size: 12px;
+}
+.btn{
+  margin-top: 15px;
+  color: #ffffff;
+  font-family: 'Trocchi';
+  background-color: #d23f2b;
+}
+
+/* Footer */
+.page-footer {
+  font-family: 'Trocchi';
+  background-color: #241d1d;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #a6ada8;
+  text-decoration: none;
+}
+.wrapper{
+  padding-bottom: 10px;
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #f9f9f9;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  color:rgb(12, 11, 11);
+  text-decoration: none;
+ 
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #FF0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+
+}
+.wrapper .button span{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 50px;
+  margin-left: 20px;
+  text-align: center;
+  color: #241d1d;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2):hover span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4):hover span{
+  color: #FF0000;
+}
+.btn1{
+  margin-top: 15px;
+  color: #ffffff;
+  font-family: 'Trocchi';
+  background-color: #d23f2b;
+  width: auto;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+@media only screen and (max-width: 175px) {
+.navbar-toggler{
+  padding-left: 200px !important;
+  outline: none !important;
+}
+.navbar {
+  background:#241d1d;
+  border-bottom: 10px solid #d23f2b;
+  display: inline-block !important;
+}
+}
+
+/* RESPONSIVE ON MOBILE */
+@media only screen and (max-width: 480px) {
+  /*--- Navigation Bar ---*/
+    .navbar {
+      background:#241d1d;
+      border-bottom: 10px solid #d23f2b;
+      display: inline-block;
+    }
+
+    .logo {
+      padding-left: 5px;
+
+    }
+
+    .nav-item{
+      font-family: 'Trocchi';
+      padding-right: 5px;
+      padding-left: 25px;
+      font-size: 15px;
+    }
+
+    .nav-link,
+    .nav-link-su,
+    .navbar-brand {
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .navbar-nav{
+      padding-left: 0px;
+    
+    }
+    .nav-link:hover {
+      color: #88807f;
+      padding-bottom: 0;
+    }
+    .navbar-toggler{
+      padding-left: 230px !important;
+      outline: none !important;
+    }
+    .navbar-collapse {
+      justify-content: center;
+    }
+
+    
+    /* Header */
+  .header{
+    background-image: url("../images/main-bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin-bottom: 10%;
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(245, 245, 245, 0.363);
+
+  }
+
+  .car {
+    position: relative; 
+    top: 30px; 
+    right:50px;
+    width: 362px !important; 
+    height:258px !important;
+    position: relative;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left:0;
+    
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  .description {
+    color: #0f3138;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    padding-left:20%;
+    width: 55vw;
+    transform: translate(-30%, -55%);
+    text-align: center;
+    animation: fadeInAnimation1 ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  .description h1 {
+    font-family: 'Trocchi';
+    font-size: .8em;
+  }
+
+  hr {
+    position: relative;
+    border: none;
+    height: 4px;
+    background: black;
+
+  }
+
+  /* Content */
+  .featured-desc{
+    font-family: 'Trocchi';
+    font-size: 20px !important;
+    margin-left: 3% !important;
+    
+  }
+
+  .featured{
+  margin-top:1% !important;
+  display: list-item !important;
+  }
+  .v1 {
+    width: 95% !important;
+    height:100px !important;
+    background-color: #241d1d !important;
+
+  
+  }
+
+  .f1 {
+  margin-left: 5% !important;
+  display: none !important;
+  }
+
+  .type{
+    color: #ffffff !important;
+    font-family: 'Trocchi' !important;
+    font-size: 13px !important;
+  }
+  .model{
+    color: #ffffff !important;
+    font-family: 'Allerta Stencil' !important;
+    font-size: 18px !important;
+  
+  }
+  .price{
+    color: #d23f2b !important;
+    font-family: 'Fantasy' !important;
+    font-size: 0px !important;
+    font-weight: bolder !important;
+    display: none !important;
+  }
+  .specs{
+    color: #ffffff !important;
+    font-family: 'Trocchi' !important;
+    font-size: 0px !important;
+    display: none !important;
+  }
+  .btn{
+    color: #ffffff !important;
+    font-family: 'Trocchi' !important;
+    background-color: #d23f2b;
+    margin-left: 250px !important;
+    position:relative !important;
+    bottom: 70px !important;
+    width: 90px !important;
+    font-size: 10px !important;
+  }
+}
+
+/* RESPONSIVENESS ON TABLET */
+  @media only screen and (max-width: 768px) {
+  /*--- Navigation Bar ---*/
+  .navbar {
+    background:#241d1d;
+    border-bottom: 10px solid #d23f2b;
+  }
+
+  .logo {
+    padding-left: 5px;
+  }
+  .nav-item{
+    font-family: 'Trocchi';
+    padding-right: 10px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+
+  }
+
+  .nav-link,
+  .nav-link-su,
+  .navbar-brand {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .nav-link:hover {
+    color: #88807f;
+    padding-bottom: 0;
+  }
+  .navbar-collapse {
+    justify-content: center;
+    padding-left: 0px;
+  }
+  
+   /* Header */
+   .header{
+    background-image: url("../images/main-bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin-bottom: 10%;
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(245, 245, 245, 0.363);
+
+  }
+
+  .car {
+    position: relative; 
+    top: 30px; 
+    right:100px;
+    width: 562px; 
+    height:458px;
+    position: relative;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left:0;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  .description {
+    color: #0f3138;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    padding-left:20%;
+    width: 55vw;
+    transform: translate(-30%, -55%);
+    text-align: center;
+    animation: fadeInAnimation1 ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  .description h1 {
+    font-family: 'Trocchi';
+    font-size: .8em;
+  }
+
+  hr {
+    position: relative;
+    border: none;
+    height: 4px;
+    background: black;
+
+  }
+    /* Content */
+  .featured-desc{
+    font-family: 'Trocchi';
+    font-size: 40px;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  .featured{
+  display: flex;
+  margin-top:1% ;
+
+  }
+  .v1 {
+    width: 20%;
+    height:430px;
+    background-color: #241d1d;
+    margin: 3%;
+    padding: 10px;
+    
+  }
+
+  .type{
+    color: #ffffff;
+    font-family: 'Trocchi';
+    font-size: 13px;
+  }
+  .model{
+    color: #ffffff;
+    font-family: 'Allerta Stencil';
+    font-size: 18px;
+  
+  }
+  .price{
+    color: #d23f2b;
+    font-family: 'Fantasy';
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  .specs{
+    color: #ffffff;
+    font-family: 'Trocchi';
+    font-size: 12px;
+  }
+  .btn{
+    margin-top: 15px;
+    color: #ffffff;
+    font-family: 'Trocchi';
+    background-color: #d23f2b;
+  } 
+}
+
+
+
+
+

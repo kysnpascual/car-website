@@ -1,0 +1,844 @@
+/*--- Navigation Bar ---*/
+.navbar {
+    background:#241d1d;
+    border-bottom: 10px solid #d23f2b;
+    
+  }
+  .logo {
+    padding-left: 5px;
+    
+  }
+  .nav-item{
+    font-family: 'Trocchi';
+    padding-right: 5px;
+    padding-left: 25px;
+    font-size: 20px;
+  }
+  
+  .nav-link,
+  .nav-link-su,
+  .navbar-brand {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  
+  
+  .nav-link:hover {
+    color: #88807f;
+    padding-bottom: 0;
+  }
+  
+  .navbar-collapse {
+    justify-content: center;
+    padding-left: 180px;
+  }
+/* header */
+.header{
+    background-image: url("../images/engine3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 10vh;
+    min-height: 170px;
+    max-width: 100%;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+  }
+.header-caption1{
+    font-family: 'Trocchi';
+    padding: 20px;
+}
+.header-caption2{
+    font-family: 'Trocchi';
+    font-size: 18px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* contents */
+.body-aboutUs{
+    display: flex;
+    margin-bottom: 60px;
+}
+.suv-front{
+    margin: 30px;
+    height: 367px;
+}
+h1{
+    font-family: 'Trocchi';
+    font-size: 38px;
+}
+.col2{
+    padding-top: 70px;
+}
+.aboutUs-1{
+    font-family: 'Trocchi';
+    font-size: 18px;
+    text-align: justify;
+    color: #4a4a4a;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.aboutUs-2{
+    font-family: 'Trocchi';
+    font-size: 18px;
+    color: black;
+    padding-left: 90px;
+    margin-top: 20px;
+}
+.check{
+    color: #f21e02;
+}
+hr{
+    position: relative;
+    border: none;
+    height: 4px;
+    background: black;
+}
+h2{
+    font-family: 'Trocchi';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+section{
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #d23f2b;
+
+}
+.container .content{
+    display: flex;
+    margin: 20px;
+    padding-left: 20px;
+    padding-left: 200px;
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: 50%;
+    border-radius: 50%;
+    border: 3px solid #f9f9f9;   
+}
+.card{
+    position: relative;
+    background: #f9f9f9;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 280px;
+    margin-left: 30px;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    height: 45%;
+    width: 100%;
+    background: #241d1d;
+    border-radius: 20px 20px 0 0;
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card .media-icons{
+    position: absolute;
+    top:10px;
+    right:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card .media-icons i {
+   color: #f9f9f9;
+   opacity: 0.6;
+   margin-top: 10px;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+.card .media-icons i:hover{
+    opacity: 1;
+}
+
+.card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #241d1d;
+}
+.name-profession .name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.name-profession .name-profession{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card .button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card .button .btn{
+    color: #ffffff;
+    font-family: 'Trocchi';
+    background: #d23f2b;
+    outline: none;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.button .btn:hover{
+    background: #241d1d;
+
+}
+
+.card .button2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card .button2 .btn{
+    color: #ffffff;
+    font-family: 'Trocchi';
+    background: #d23f2b;
+    outline: none;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.button2 .btn:hover{
+    background: #241d1d;
+
+}
+
+
+/* Footer */
+.page-footer {
+    font-family: 'Trocchi';
+    background-color: #241d1d;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.footer-link:hover {
+    color: #a6ada8;
+    text-decoration: none;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #f9f9f9;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    color:rgb(12, 11, 11);
+    text-decoration: none;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #FF0000;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+
+}
+.wrapper .button span{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 20px;
+    text-align: center;
+    color: #241d1d;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover span{
+    color: #4267B2;
+}
+.wrapper .button:nth-child(2):hover span{
+    color: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover span{
+    color: #E1306C;
+}
+.wrapper .button:nth-child(4):hover span{
+    color: #FF0000;
+}
+/* RESPONSIVE ON MOBILE */
+@media only screen and (max-width: 480px) {
+    /*--- Navigation Bar ---*/
+      .navbar {
+        background:#241d1d;
+        border-bottom: 10px solid #d23f2b;
+        display: inline-block;
+      }
+  
+      .logo {
+        padding-left: 5px;
+  
+      }
+  
+      .nav-item{
+        font-family: 'Trocchi';
+        padding-right: 5px;
+        padding-left: 25px;
+        font-size: 15px;
+      }
+  
+      .nav-link,
+      .nav-link-su,
+      .navbar-brand {
+        color: #ffffff;
+        cursor: pointer;
+      }
+      .navbar-nav{
+        padding-left: 0px;
+      
+      }
+      .nav-link:hover {
+        color: #88807f;
+        padding-bottom: 0;
+      }
+      .navbar-toggler{
+        padding-left: 230px !important;
+        outline: none !important;
+      }
+      .navbar-collapse {
+        justify-content: center;
+        padding-left: 0px !important;
+      }
+      /* header */
+    .header{
+        background-image: url("../images/engine3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 10vh;
+        min-height: 170px;
+        max-width: 100%;
+    }
+    .overlay {
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 0;
+    }
+    .header-caption1{
+        font-family: 'Trocchi';
+        padding: 10px;
+        
+    }
+    .abt-us{
+        font-size: 18px !important;
+    }
+    .header-caption2{
+        font-family: 'Trocchi';
+        font-size: 10px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+    }
+    /* contents */
+    .body-aboutUs{
+        display: inline;
+        margin-bottom: 70px;
+    }
+    .suv-front{
+        margin: 10px;
+        height: 267px;
+    }
+    h1{
+        font-family: 'Trocchi';
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    .col2{
+        padding-top: 20px;
+        margin-left: 5%;
+    }
+    .aboutUs-1{
+        font-family: 'Trocchi';
+        font-size: 13px;
+        text-align: justify;
+        color: #4a4a4a;
+        padding-left: 30px;
+        padding-right: 40px;
+        margin-top: 20px;
+    }
+    .aboutUs-2{
+        font-family: 'Trocchi';
+        font-size: 13px;
+        color: black;
+        padding-left: 90px;
+        margin-top: 20px;
+    }
+    .check{
+        color: #f21e02;
+    }
+    hr{
+        position: relative;
+        border: none;
+        height: 4px;
+        background: black;
+    }
+    h2{
+        font-family: 'Trocchi';
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5%;
+    }
+    section{
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+    section .card .image{
+        height: 100px !important;
+        width: 100px !important;
+        border-radius: 50%;
+        padding: 3px;
+        background: #d23f2b;
+        
+       
+
+    }
+    .container .content{
+        display: flex;
+        margin: 20px;
+        padding-left: 20px;
+       
+    }
+    
+    section .card .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: 50%;
+        border-radius: 50%;
+        border: 3px solid #f9f9f9;   
+      
+    }
+    .card{
+        position: relative;
+        background: #f9f9f9;
+        border-radius: 20px;
+        margin: 0px !important;
+        width: 280px;
+    }
+    .card::before{
+        content: "";
+        position: absolute;
+        height: 45%;
+        width: 100%;
+        background: #241d1d;
+        border-radius: 20px 20px 0 0;
+    }
+    .card .card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .card .media-icons{
+        position: absolute;
+        top:140px !important;
+        right:40px !important;
+        display: inline !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card .media-icons i {
+    color: #f9f9f9;
+    opacity: 0.6;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    }
+    .card .media-icons i:hover{
+        opacity: 1;
+    }
+
+    .card .name-profession{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px !important;
+        color: #241d1d;
+    }
+    .name-profession .name{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 0%;
+    }
+    .name-profession .name-profession{
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+    .card .button {
+        width: 100%;
+        display: inline;
+        justify-content: space-around;
+        margin-top: 20px;
+        
+    }
+    .card .button2 {
+        width: 100%;
+        display: inline;
+        justify-content: space-around;
+        margin-top: 44px !important;
+        
+        
+    }
+    .card .button .btn{
+        color: #ffffff;
+        font-family: 'Trocchi';
+        background: #d23f2b;
+        outline: none;
+        border: none;
+        padding: 8px 22px;
+        border-radius: 20px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+        margin-bottom: 2%;
+        text-align: center;
+        
+    }
+    .card .button2 .btn{
+        color: #ffffff;
+        font-family: 'Trocchi';
+        background: #d23f2b;
+        outline: none;
+        border: none;
+        padding: 8px 22px;
+        border-radius: 20px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+        margin-bottom: 2%;
+        text-align: center;
+        
+    }
+
+
+    
+}
+ /* RESPONSIVENESS ON TABLET */
+ @media only screen and (max-width: 768px) {
+    /*--- Navigation Bar ---*/
+ .navbar {
+   background:#241d1d;
+   border-bottom: 10px solid #d23f2b;
+ }
+
+ .logo {
+   padding-left: 5px;
+ }
+ .nav-item{
+   font-family: 'Trocchi';
+   padding-right: 10px;
+   padding-left: 5px;
+   font-size: 15px;
+   margin-right: 10px;
+
+ }
+
+ .nav-link,
+ .nav-link-su,
+ .navbar-brand {
+   color: #ffffff;
+   cursor: pointer;
+ }
+ .nav-link:hover {
+   color: #88807f;
+   padding-bottom: 0;
+ }
+ .navbar-collapse {
+   justify-content: center;
+   padding-left: 0px;
+ }
+   /* header */
+   .header{
+    background-image: url("../images/engine3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 10vh;
+    min-height: 170px;
+    max-width: 100%;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+}
+.header-caption1{
+    font-family: 'Trocchi';
+    padding: 10px;
+    
+}
+.abt-us{
+    font-size: 28px !important;
+}
+.header-caption2{
+    font-family: 'Trocchi';
+    font-size: 12px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+ /* contents */
+ .body-aboutUs{
+    display: inline;
+    margin-bottom: 70px;
+}
+.suv-front{
+    margin: 10px;
+    height: 267px;
+}
+h1{
+    font-family: 'Trocchi';
+    font-size: 20px;
+    margin-left: 5%;
+}
+.col2{
+    padding-top: 20px;
+    margin-left: 15%;
+}
+.aboutUs-1{
+    font-family: 'Trocchi';
+    font-size: 13px;
+    text-align: justify;
+    color: #4a4a4a;
+    padding-left: 10px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+.aboutUs-2{
+    font-family: 'Trocchi';
+    font-size: 13px;
+    color: black;
+    padding-left: 50px;
+    margin-top: 20px;
+    padding-right: 25%;
+}
+.check{
+    color: #f21e02;
+}
+hr{
+    position: relative;
+    border: none;
+    height: 4px;
+    background: black;
+}
+h2{
+    font-family: 'Trocchi';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+section{
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #d23f2b;
+
+}
+.container .content{
+    display: flex;
+    margin: 20px;
+    padding-left: 20px;
+   
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: 50%;
+    border-radius: 50%;
+    border: 3px solid #f9f9f9;   
+}
+.card{
+    position: relative;
+    background: #f9f9f9;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 280px;
+    margin-left: 30px;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    height: 45%;
+    width: 100%;
+    background: #241d1d;
+    border-radius: 20px 20px 0 0;
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card .media-icons{
+    position: absolute;
+    top:10px;
+    right:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card .media-icons i {
+   color: #f9f9f9;
+   opacity: 0.6;
+   margin-top: 10px;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+.card .media-icons i:hover{
+    opacity: 1;
+}
+
+.card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #241d1d;
+}
+.name-profession .name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.name-profession .name-profession{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card .button{
+    width: 100%;
+    display: inline;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card .button .btn{
+    color: #ffffff;
+    font-family: 'Trocchi';
+    background: #d23f2b;
+    outline: none;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.button .btn:hover{
+    background: #241d1d;
+
+}
+
+.card .button2{
+    width: 100%;
+    display: inline;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card .button2 .btn{
+    color: #ffffff;
+    font-family: 'Trocchi';
+    background: #d23f2b;
+    outline: none;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.button2 .btn:hover{
+    background: #241d1d;
+
+}
+
+}
+    

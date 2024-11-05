@@ -1,0 +1,1086 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+/*--- Navigation Bar ---*/
+.navbar {
+    background:#241d1d;
+    border-bottom: 10px solid #d23f2b;
+}
+.logo {
+    padding-left: 5px;
+
+}
+.nav-item{
+    font-family: 'Trocchi';
+    padding-right: 5px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.nav-link,
+.nav-link-su,
+.navbar-brand {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #88807f;
+    padding-bottom: 0;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    padding-left: 180px;
+}
+
+/* Header */
+.header{
+    background-image: url("../images/electric_header6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 20vh;
+    min-height: 350px;
+  }
+  
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .header-caption1 {
+    position: absolute;
+    top: 58%;
+    margin-left: 55%;
+    padding-left:20%;
+    width: 55vw;
+    transform: translate(-30%, -55%);
+    text-align: center;
+  }
+
+  .header-caption1 h1 {
+    font-family: 'CMU Serif', 'sans-serif';
+    font-size: 3.2em;
+  }
+
+  .header-caption2 {
+    position: absolute;
+    top: 73%;
+    margin-left: 42.5%;
+    padding-left:20%;
+    width: 55vw;
+    transform: translate(-30%, -55%);
+    text-align: center;
+  }
+
+  .header-caption2 h1 {
+    font-family: 'Trocchi';
+    font-size: 1.4em;
+  }
+
+/* Content */
+
+hr {
+    width: 10%;
+    background: #B2BABB;
+}
+
+.content > h1{
+    font-family: 'Trocchi';
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.car-model {
+    position: relative;
+    margin-left: -5%;
+    height: auto;
+    top: -80px;
+}
+
+/*Photo Slider*/
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 3.5}
+  }
+
+/*Car Specifications/details*/
+.car-description > p {
+    text-align: justify !important;
+    position: relative;
+    margin-left: 70.2%;
+    overflow: hidden;
+    bottom: 600px;
+    padding: 3px;
+    font-family: 'Trocchi';
+    font-size: 18px;
+    color: #707B7C;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-right: 7%;
+}
+
+.features > h2 {
+    position: relative;
+    text-align: center;
+    margin-left: 5%;
+    bottom: 260px;
+    font-family: 'Trocchi';
+}
+
+.icon-device {
+    position: relative;
+    width: 70px;
+    height: auto;
+    margin-left: 25%;
+    bottom: 280px;
+}
+
+.cfeature-1 > h5 {
+    position: relative;
+    bottom: 250px;
+    margin-left: 22.8%;
+    font-family: 'Trocchi';
+}
+
+.cfeature-1 > p {
+    position: relative;
+    bottom: 230px;
+    margin-left: 19.8%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+}
+
+.icon-leaf {
+    position: relative;
+    width: 70px;
+    height: auto;
+    margin-left: 48.8%;
+    bottom: 493px;
+}
+
+.cfeature-2 > h5 {
+    position: relative;
+    bottom: 462px;
+    margin-left: 47.8%;
+    font-family: 'Trocchi';
+}
+
+.cfeature-2 > p {
+    position: relative;
+    bottom: 438.5px;
+    margin-left: 42.5%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+}
+
+.icon-safetyAssist {
+    position: relative;
+    width: 70px;
+    height: auto;
+    margin-left: 73%;
+    bottom: 695px;
+}
+
+.cfeature-3 > h5 {
+    position: relative;
+    bottom: 671.5px;
+    margin-left: 71.8%;
+    font-family: 'Trocchi';
+}
+
+.cfeature-3 > p {
+    position: relative;
+    bottom: 648px;
+    margin-left: 65.8%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+}
+
+.icon-traffic {
+    position: relative;
+    width: 70px;
+    height: auto;
+    margin-left: 62.5%;
+    bottom: 780px;
+}
+
+.cfeature-4 > h5 {
+    position: relative;
+    bottom: 746px;
+    margin-left: 59.5%;
+    font-family: 'Trocchi';
+}
+
+.cfeature-4 > p {
+    position: relative;
+    bottom: 730px;
+    margin-left: 55.2%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+}
+
+.icon-sound {
+    position: relative;
+    width: 70px;
+    height: auto;
+    margin-left: 36.5%;
+    bottom: 550px;
+}
+
+.cfeature-5 > h5 {
+    position: relative;
+    bottom: 515px;
+    margin-left: 33.5%;
+    font-family: 'Trocchi';
+}
+
+.cfeature-5 > p {
+    position: relative;
+    bottom: 500px;
+    margin-left: 29.5%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+}
+
+.features {
+    position: relative;
+    margin-left: -5%;
+    top: 40px;
+}
+
+.specs > h2 {
+    position: relative;
+    margin-left: 5%;  
+    bottom: 520px;
+    font-family: 'Trocchi';
+}
+
+.specs > table {
+    position: relative;
+    margin-left: 7%;
+    bottom: 490px;
+    width: 75%;
+    padding: 10px;
+    font-family: 'Trocchi';
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+/* Footer */
+.page-footer {
+    font-family: 'Trocchi';
+    background-color: #241d1d;
+    color: #ccc;
+    padding: 60px 0 30px;
+    margin-top: -300px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.footer-link:hover {
+    color: #a6ada8;
+    text-decoration: none;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #f9f9f9;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    color:rgb(12, 11, 11);
+    text-decoration: none;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #FF0000;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+
+}
+.wrapper .button span{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 20px;
+    text-align: center;
+    color: #241d1d;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover span{
+    color: #4267B2;
+}
+.wrapper .button:nth-child(2):hover span{
+    color: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover span{
+    color: #E1306C;
+}
+.wrapper .button:nth-child(4):hover span{
+    color: #FF0000;
+}
+
+/* RESPONSIVE ON MOBILE */
+@media only screen and (max-width: 480px) {
+    /*--- Navigation Bar ---*/
+    .navbar {
+        background:#241d1d;
+        border-bottom: 10px solid #d23f2b;
+        display: inline-block;
+      }
+  
+      .logo {
+        padding-left: 5px;
+  
+      }
+  
+      .nav-item{
+        font-family: 'Trocchi';
+        padding-right: 5px;
+        padding-left: 25px;
+        font-size: 15px;
+      }
+  
+      .nav-link,
+      .nav-link-su,
+      .navbar-brand {
+        color: #ffffff;
+        cursor: pointer;
+      }
+      .navbar-nav{
+        padding-left: 0px;
+      
+      }
+      .nav-link:hover {
+        color: #88807f;
+        padding-bottom: 0;
+      }
+      .navbar-toggler{
+        padding-left: 230px !important;
+        outline: none !important;
+      }
+      .navbar-collapse {
+        justify-content: center;
+        padding-left: 0px !important;
+      }
+
+/* Header */
+.header{
+    background-image: url("../images/electric_header6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 20vh;
+    min-height: 250px;
+  }
+  
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .header-caption1 {
+    position: absolute;
+    top: 35%;
+    margin-left: 48%;
+    padding-left:20%;
+    width: 55vw;
+    transform: translate(-30%, -55%);
+    text-align: center;
+  }
+
+  .header-caption1 h1 {
+    font-family: 'CMU Serif', 'sans-serif';
+    font-size: 1.3em !important;
+  }
+
+  .header-caption2 {
+    position: absolute;
+    top: 55%;
+    margin-left: 50% !important;
+    padding-left:20%;
+    width: 55vw;
+    transform: translate(-30%, -55%);
+    text-align: center;
+  }
+
+  .header-caption2 h1 {
+    font-family: 'Trocchi';
+    font-size: 0.9em !important;
+  }
+
+/* Content */
+hr {
+    width: 50% !important;
+    background: #B2BABB;
+}
+
+.content > h1{
+    font-family: 'Trocchi';
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.car-model {
+    position: relative;
+    margin-left: -2% !important;
+    height: auto;
+    top: 30px !important;
+    width: 600px !important;
+}
+
+/*Photo Slider*/
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 3.5}
+  }
+
+/*Car Specifications/details*/
+.car-description > p {
+    text-align: center !important;
+    position: relative;
+    margin-left: 3.2% !important;
+    overflow: hidden;
+    bottom: -130px !important;
+    padding: 3px;
+    font-family: 'Trocchi';
+    font-size: 18px;
+    color: #707B7C;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.features > h2 {
+    position: relative;
+    text-align: center !important;
+    margin-left: 5% !important;
+    bottom: 90px !important;
+    font-family: 'Trocchi';
+    font-size: 23px;
+}
+
+.icon-device {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin-left: 25% !important;
+    bottom: 200px !important;
+}
+
+.cfeature-1 > h5 {
+    position: relative;
+    bottom: 180px !important;
+    margin-left: 15% !important;
+    font-family: 'Trocchi';
+}
+
+.cfeature-1 > p {
+    position: relative;
+    bottom: 230px;
+    margin-left: 19.8%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.icon-leaf {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin-left: 68% !important;
+    bottom: 280px !important;
+}
+
+.cfeature-2 > h5 {
+    position: relative;
+    bottom: 263px !important;
+    margin-left: 60% !important;
+    font-family: 'Trocchi';
+}
+
+.cfeature-2 > p {
+    position: relative;
+    bottom: 438.5px;
+    margin-left: 42.5%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.icon-safetyAssist {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin-left: 45% !important;
+    bottom: 80px !important;
+}
+
+.cfeature-3 > h5 {
+    text-align: center;
+    display: flex;
+    position: relative;
+    bottom: 50px !important;
+    margin-left: 38.5% !important;
+    font-family: 'Trocchi';
+}
+
+.cfeature-3 > p {
+    position: relative;
+    bottom: 648px;
+    margin-left: 68%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.icon-traffic {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin-left: 22.5% !important;
+    bottom: 410px !important;
+}
+
+.cfeature-4 > h5 {
+    position: relative;
+    bottom: 395px !important;
+    margin-left: 8% !important;
+    font-family: 'Trocchi';
+}
+
+.cfeature-4 > p {
+    position: relative;
+    bottom: 730px;
+    margin-left: 55.2%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.icon-sound {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin-left: 67.8% !important;
+    bottom: 315px !important;
+}
+
+.cfeature-5 > h5 {
+    position: relative;
+    bottom: 303px !important;
+    margin-left: 55.8% !important;
+    font-family: 'Trocchi';
+}
+
+.cfeature-5 > p {
+    position: relative;
+    bottom: 500px;
+    margin-left: 27.8%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.features {
+    position: relative;
+    margin-left: -5%;
+    top: 250px;
+}
+
+.specs > h2 {
+    position: relative;
+    margin-left: 5% !important;  
+    bottom: -200px !important;
+    font-family: 'Trocchi'; 
+    font-size: 27px;
+}
+
+.specs > table {
+    position: relative;
+    margin-left: 7% !important;
+    bottom: -230px !important;
+    width: 70%;
+    padding: 10px;
+    font-family: 'Trocchi';
+    font-size: 13px !important;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  .page-footer {
+    margin-top: 300px !important;
+  }
+}
+
+/*TABLET RESPONSIVENESS*/
+@media only screen and (max-width: 768px) {
+    /*--- Navigation Bar ---*/
+  .navbar {
+   background:#241d1d;
+   border-bottom: 10px solid #d23f2b;
+  }
+  
+  .logo {
+   padding-left: 5px;
+  }
+  .nav-item{
+   font-family: 'Trocchi';
+   padding-right: 10px;
+   padding-left: 5px;
+   font-size: 15px;
+   margin-right: 10px;
+  
+  }
+  
+  .nav-link,
+  .nav-link-su,
+  .navbar-brand {
+   color: #ffffff;
+   cursor: pointer;
+  }
+  .nav-link:hover {
+   color: #88807f;
+   padding-bottom: 0;
+  }
+  .navbar-collapse {
+   justify-content: center;
+   padding-left: 0px;
+  }
+
+  /* Header */
+.header{
+    background-image: url("../images/electric_header6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 20vh;
+    min-height: 200px;
+  }
+  
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .header-caption1 {
+    position: absolute;
+    top: 33%;
+    margin-left: 48%;
+    padding-left:20%;
+    width: 55vw;
+    transform: translate(-30%, -55%);
+    text-align: center;
+  }
+
+  .header-caption1 h1 {
+    font-family: 'CMU Serif', 'sans-serif';
+    font-size: 2em;
+  }
+
+  .header-caption2 {
+    position: absolute;
+    top: 64%;
+    margin-left: 48.5%;
+    padding-left:20%;
+    width: 55vw;
+    transform: translate(-30%, -55%);
+    text-align: center;
+  }
+
+  .header-caption2 h1 {
+    font-family: 'Trocchi';
+    font-size: 1.3em;
+  }
+
+  /* Content */
+  hr {
+    width: 28%;
+    background: #B2BABB;
+}
+
+.content > h1{
+    font-family: 'Trocchi';
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.car-model {
+    position: relative;
+    margin-left: -6%;
+    height: auto;
+    top: 40px;
+    width: 780px;
+}
+
+/*Photo Slider*/
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 3.5}
+  }
+
+/*Car Specifications/details*/
+.car-description > p {
+    text-align: justify;
+    position: relative;
+    margin-left: 62.2%;
+    overflow: hidden;
+    bottom: 300px;
+    padding: 3px;
+    font-family: 'Trocchi';
+    font-size: 18px;
+    color: #707B7C;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.features > h2 {
+    position: relative;
+    text-align: center;
+    margin-left: 5%;
+    bottom: 330px;
+    font-family: 'Trocchi';
+    font-size: 30px;
+}
+
+.icon-device {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin-left: 30%;
+    bottom: 400px;
+}
+
+.cfeature-1 > h5 {
+    position: relative;
+    bottom: 370px;
+    margin-left: 23%;
+    font-family: 'Trocchi';
+    font-size: 21px;
+}
+
+.cfeature-1 > p {
+    position: relative;
+    bottom: 230px;
+    margin-left: 19.8%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.icon-leaf {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin-left: 68%;
+    bottom: 480px;
+}
+
+.cfeature-2 > h5 {
+    position: relative;
+    bottom: 453px;
+    margin-left: 64%;
+    font-family: 'Trocchi';
+    font-size: 21px;
+}
+
+.cfeature-2 > p {
+    position: relative;
+    bottom: 438.5px;
+    margin-left: 42.5%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.icon-safetyAssist {
+    position: relative;
+    width: 60px;
+    height: auto;
+    margin-left: 67%;
+    bottom: 350px;
+}
+
+.cfeature-3 > h5 {
+    text-align: center;
+    display: flex;
+    position: relative;
+    bottom: 325px;
+    margin-left: 63.5%;
+    font-family: 'Trocchi';
+    font-size: 21px;
+}
+
+.cfeature-3 > p {
+    position: relative;
+    bottom: 648px;
+    margin-left: 68%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.icon-traffic {
+    position: relative;
+    width: 60px;
+    height: auto;
+    margin-left: 29%;
+    bottom: 540px;
+}
+
+.cfeature-4 > h5 {
+    position: relative;
+    bottom: 512px;
+    margin-left: 22%;
+    font-family: 'Trocchi';
+    font-size: 21px;
+}
+
+.cfeature-4 > p {
+    position: relative;
+    bottom: 730px;
+    margin-left: 55.2%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.icon-sound {
+    position: relative;
+    width: 60px;
+    height: auto;
+    margin-left: 50%;
+    bottom: 260px;
+}
+
+.cfeature-5 > h5 {
+    position: relative;
+    bottom: 235px;
+    margin-left: 42%;
+    font-family: 'Trocchi';
+    font-size: 21px;
+
+}
+
+.cfeature-5 > p {
+    position: relative;
+    bottom: 500px;
+    margin-left: 27.8%;
+    display: flex; /*this enables the margin-left to position the center-aligned text in the page.*/
+    text-align: center;
+    font-family: 'Trocchi';
+    font-size: 15px;
+    color: #707B7C;
+    display: none;
+}
+
+.features {
+    position: relative;
+    margin-left: -5%;
+    top: 250px;
+}
+
+.specs > h2 {
+    position: relative;
+    margin-left: 5%;  
+    bottom: -20px;
+    font-family: 'Trocchi';
+    font-size: 27px;
+}
+
+.specs > table {
+    position: relative;
+    margin-left: 7%;
+    bottom: -50px;
+    width: 85%;
+    padding: 10px;
+    font-family: 'Trocchi';
+    font-size: 17px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  .page-footer {
+    margin-top: 150px;
+  }
+}
